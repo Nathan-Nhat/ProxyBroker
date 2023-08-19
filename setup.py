@@ -14,7 +14,7 @@ with codecs.open('README.rst', mode='r', encoding='utf-8') as f:
 REQUIRES = [
     'aiohttp>=3.5.4',
     'aiodns>=2.0.0',
-    'attrs==19.1.0',
+    'attrs>=19.2.0',
     'maxminddb>=1.4.1',
 ]
 SETUP_REQUIRES = ['pytest-runner>=4.4']
